@@ -48,3 +48,7 @@
       items:
         - [cite_start]Developing custom models and integrating uncertainty estimation for interpretability. [cite: 52]
         - [cite_start]Data preprocessing, augmentation, and analysis. [cite: 53]
+- title: Other Interests
+  type: list
+  contents:
+    - "<u>Hobbies:</u> Technology and innovation."

@@ -2,96 +2,54 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
+      [cite_start]value: Alibay Osmanli [cite: 1]
     - name: Languages
-      value: English, German
+      [cite_start]value: English, Russian, Azerbaijani, and Turkish [cite: 59]
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: MSc in Artificial Intelligence
+      [cite_start]institution: Queen Mary University of London, London, UK [cite: 7]
+      [cite_start]year: 2024 - Present [cite: 7]
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
-      description:
-        - Description 1.
-        - Description 2.
+        - [cite_start]Stream in Computer Vision and Robotics. [cite: 7]
+    - title: BSc in Computer Engineering
+      [cite_start]institution: Koç University, Istanbul, Turkey [cite: 8]
+      [cite_start]year: 2020 - 2024 [cite: 8]
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: React Frontend Intern
+      [cite_start]institution: Payriff CJSC [cite: 12]
+      [cite_start]year: Aug 2023 [cite: 12]
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - [cite_start]Built user-friendly interfaces and implemented API integrations for payment systems. [cite: 12]
+    - title: Angular Frontend Intern
+      [cite_start]institution: Uniser Group PLC [cite: 11]
+      [cite_start]year: Jul 2023 & Sep 2023 [cite: 11]
       description:
-        - Description 1.
-        - Description 2.
-
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
+        - [cite_start]Developed responsive and dynamic web applications using the Angular framework. [cite: 11]
+    - title: Software Development Intern
+      [cite_start]institution: Azersun Holding [cite: 10]
+      [cite_start]year: Jul 2022 - Aug 2022 [cite: 10]
       description:
-
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
-  type: time_table
-  contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
-
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 1921
-      items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
-      items:
-        - Max Planck Medal
+        - [cite_start]Contributed to internal tools development by implementing new features and optimizing existing systems. [cite: 10]
 
 - title: Academic Interests
   type: nested_list
   contents:
-    - title: Topic 1.
+    - [cite_start]title: Deep Learning and Computer Vision [cite: 51, 79]
       items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
+        - [cite_start]Medical Image Segmentation and Classification. [cite: 21, 23, 27]
+        - [cite_start]Object Detection in Dynamic Environments. [cite: 19]
+    - [cite_start]title: Machine Learning and AI [cite: 51]
       items:
-        - Description 1.
-        - Description 2.
+        - [cite_start]Developing custom models and integrating uncertainty estimation for interpretability. [cite: 52]
+        - [cite_start]Data preprocessing, augmentation, and analysis. [cite: 53]
 
-- title: Other Interests
-  type: list
-  contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+# - title: Other Interests
+#   type: list
+#   contents:
+#     - [cite_start]<u>Hobbies:</u> Technology and innovation. [cite: 5]

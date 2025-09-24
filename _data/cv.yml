@@ -2,52 +2,53 @@
   type: map
   contents:
     - name: Full Name
-      [cite_start]value: Alibay Osmanli [cite: 1]
+      value: Alibay Osmanli
     - name: Languages
-      [cite_start]value: English, Russian, Azerbaijani, and Turkish [cite: 59]
+      value: "English, Russian, Azerbaijani, and Turkish"
 
 - title: Education
   type: time_table
   contents:
     - title: MSc in Artificial Intelligence
-      [cite_start]institution: Queen Mary University of London, London, UK [cite: 7]
-      [cite_start]year: 2024 - Present [cite: 7]
+      institution: Queen Mary University of London, London, UK
+      year: "2024 - Present"
       description:
-        - [cite_start]Stream in Computer Vision and Robotics. [cite: 7]
+        - Stream in Computer Vision and Robotics.
     - title: BSc in Computer Engineering
-      [cite_start]institution: Koç University, Istanbul, Turkey [cite: 8]
-      [cite_start]year: 2020 - 2024 [cite: 8]
+      institution: Koç University, Istanbul, Turkey
+      year: "2020 - 2024"
 
 - title: Experience
   type: time_table
   contents:
     - title: React Frontend Intern
-      [cite_start]institution: Payriff CJSC [cite: 12]
-      [cite_start]year: Aug 2023 [cite: 12]
+      institution: Payriff CJSC
+      year: "Aug 2023"
       description:
-        - [cite_start]Built user-friendly interfaces and implemented API integrations for payment systems. [cite: 12]
+        - Built user-friendly interfaces and implemented API integrations for payment systems.
     - title: Angular Frontend Intern
-      [cite_start]institution: Uniser Group PLC [cite: 11]
-      [cite_start]year: Jul 2023 & Sep 2023 [cite: 11]
+      institution: Uniser Group PLC
+      year: "Jul 2023 & Sep 2023"
       description:
-        - [cite_start]Developed responsive and dynamic web applications using the Angular framework. [cite: 11]
+        - Developed responsive and dynamic web applications using the Angular framework.
     - title: Software Development Intern
-      [cite_start]institution: Azersun Holding [cite: 10]
-      [cite_start]year: Jul 2022 - Aug 2022 [cite: 10]
+      institution: Azersun Holding
+      year: "Jul 2022 - Aug 2022"
       description:
-        - [cite_start]Contributed to internal tools development by implementing new features and optimizing existing systems. [cite: 10]
+        - Contributed to internal tools development by implementing new features and optimizing existing systems.
 
 - title: Academic Interests
   type: nested_list
   contents:
-    - [cite_start]title: Deep Learning and Computer Vision [cite: 51, 79]
+    - title: Deep Learning and Computer Vision
       items:
-        - [cite_start]Medical Image Segmentation and Classification. [cite: 21, 23, 27]
-        - [cite_start]Object Detection in Dynamic Environments. [cite: 19]
-    - [cite_start]title: Machine Learning and AI [cite: 51]
+        - Medical Image Segmentation and Classification.
+        - Object Detection in Dynamic Environments.
+    - title: Machine Learning and AI
       items:
-        - [cite_start]Developing custom models and integrating uncertainty estimation for interpretability. [cite: 52]
-        - [cite_start]Data preprocessing, augmentation, and analysis. [cite: 53]
+        - Developing custom models and integrating uncertainty estimation for interpretability.
+        - Data preprocessing, augmentation, and analysis.
+
 - title: Other Interests
   type: list
   contents:

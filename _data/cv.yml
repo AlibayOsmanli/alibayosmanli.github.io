@@ -3,6 +3,10 @@
   contents:
     - name: Full Name
       value: Alibay Osmanli
+    - name: Email
+      value: '<a href="mailto:a.osmanli@qmul.ac.uk">a.osmanli@qmul.ac.uk</a>'
+    - name: Website
+      value: '<a href="https://alibayosmanli.github.io/">alibayosmanli.github.io</a>'
     - name: Languages
       value: "English, Russian, Azerbaijani, and Turkish"
 
@@ -48,6 +52,11 @@
       items:
         - Developing custom models and integrating uncertainty estimation for interpretability.
         - Data preprocessing, augmentation, and analysis.
+
+- title: Publications
+  type: list
+  contents:
+    - '<b>Grounding Video Reasoning in Physical Signals.</b> Alibay Osmanli, Zixu Cheng, and Shaogang Gong. arXiv:2604.21873, 2026. <a href="https://arxiv.org/abs/2604.21873">Paper</a> / <a href="https://github.com/AlibayOsmanli/Grounding-Video-Reasoning-in-Physical-SignalGrounding-Video-Reasoning-in-Physical-Signal">Code</a>'
 
 - title: Other Interests
   type: list

@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>PhD Researcher in Computer Vision & AI</a>. Queen Mary University of London.  
+subtitle: PhD Researcher in Computer Vision & AI. Queen Mary University of London.
 
 profile:
   align: right
@@ -18,19 +18,20 @@ selected_papers: true
 social: true
 
 announcements:
-  enabled: true
+  enabled: false
   scrollable: true
   limit: 5
 
 latest_posts:
-  enabled: true
+  enabled: false
   scrollable: true
   limit: 3
 ---
 
-I am a PhD researcher in the **Computer Vision Group** at Queen Mary University of London.  
-My doctoral research focuses on **uncertainty estimation**, with an emphasis on quantifying epistemic and aleatoric uncertainty.
+I am a PhD researcher in the **Computer Vision Group** at Queen Mary University of London. My research focuses on **computer vision**, **video understanding**, and **uncertainty estimation**, with an emphasis on building models and evaluation methods that make visual reasoning more grounded and reliable.
 
-I hold an **MSc in Artificial Intelligence** from Queen Mary University of London, where I worked on projects in machine learning, computer vision, and statistical modeling. Prior to that, I completed my **BSc in Computer Engineering** at **Koç University** (Istanbul, Turkey).  
+My first paper, **Grounding Video Reasoning in Physical Signals**, introduces a benchmark for evaluating what, when, and where reasoning in physical video understanding across prompt families and perturbation settings.
 
-My broader research interests lie at the intersection of **artificial intelligence, computer vision, and uncertainty estimation**, particularly in applications involving safety-critical decision-making.  
+I hold an **MSc in Artificial Intelligence** from Queen Mary University of London, where I worked on projects in machine learning, computer vision, and statistical modeling. Prior to that, I completed my **BSc in Computer Engineering** at **Koç University** (Istanbul, Turkey).
+
+My broader interests lie at the intersection of **artificial intelligence**, **computer vision**, and **reliable machine learning**, particularly in settings where model decisions need to be interpretable and robust.

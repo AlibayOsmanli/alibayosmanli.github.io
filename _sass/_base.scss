@@ -1096,13 +1096,9 @@ nav[data-toggle="toc"] {
   }
 }
 
-/* small screens */
 @media (max-width: 576px) {
-  /* override stickyness so that the navigation does not follow scrolling */
   nav[data-toggle="toc"] {
-    visibility: hidden;
-    height: 0;
-    top: 0;
+    display: none;
   }
 }
 

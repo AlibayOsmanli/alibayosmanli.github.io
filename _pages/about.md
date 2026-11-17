@@ -18,7 +18,7 @@ selected_papers: true
 social: true
 
 announcements:
-  enabled: false
+  enabled: true
   scrollable: true
   limit: 5
 
@@ -28,10 +28,12 @@ latest_posts:
   limit: 3
 ---
 
-I am a PhD researcher in the **Computer Vision Group** at Queen Mary University of London. My research focuses on **computer vision**, **video understanding**, and **uncertainty estimation**, with an emphasis on building models and evaluation methods that make visual reasoning more grounded and reliable.
+I am a PhD researcher in the Computer Vision Group at Queen Mary University of London, working with Prof. Shaogang Gong on world models and physical AI. My research is on video understanding: how a model can keep a memory of a long video, count and ground the events in it, and reason about what physically happens.
 
-My first paper, **Grounding Video Reasoning in Physical Signals**, introduces a benchmark for evaluating what, when, and where reasoning in physical video understanding across prompt families and perturbation settings.
+## Recent work
 
-I hold an **MSc in Artificial Intelligence** from Queen Mary University of London, where I worked on projects in machine learning, computer vision, and statistical modeling. Prior to that, I completed my **BSc in Computer Engineering** at **Koç University** (Istanbul, Turkey).
+- **PlaceTally** builds a place graph for each video before any question is asked, so that a vision-language model can count objects when the camera returns to rooms it has already seen. It comes with RevisitCount, a benchmark of real room re-recordings. [Project page](https://alibayosmanli.github.io/placetally)
+- **OVET-Consensus** checks the top prediction of a video moment retrieval model and changes it only when several evidence sources agree.
+- **Grounding Video Reasoning in Physical Signals** is a benchmark for what, when and where reasoning in physical video understanding.
 
-My broader interests lie at the intersection of **artificial intelligence**, **computer vision**, and **reliable machine learning**, particularly in settings where model decisions need to be interpretable and robust.
+Before the PhD, I completed an MSc in Artificial Intelligence (Computer Vision and Robotics) at Queen Mary and a BSc in Computer Engineering at Koç University in Istanbul.

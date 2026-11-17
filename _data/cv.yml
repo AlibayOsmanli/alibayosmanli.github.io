@@ -7,58 +7,113 @@
       value: '<a href="mailto:a.osmanli@qmul.ac.uk">a.osmanli@qmul.ac.uk</a>'
     - name: Website
       value: '<a href="https://alibayosmanli.github.io/">alibayosmanli.github.io</a>'
-    - name: Languages
-      value: "English, Russian, Azerbaijani, and Turkish"
 
 - title: Education
   type: time_table
   contents:
-    - title: MSc in Artificial Intelligence
+    - title: PhD (in progress), School of Electronic Engineering and Computer Science
       institution: Queen Mary University of London, London, UK
-      year: "2024 - Present"
+      year: "2025 - Present"
       description:
-        - Stream in Computer Vision and Robotics.
-    - title: BSc in Computer Engineering
+        - Computer Vision Group. Supervised by Prof. Shaogang Gong.
+    - title: MSc Artificial Intelligence (Computer Vision and Robotics)
+      institution: Queen Mary University of London, London, UK
+      year: "2024 - 2025"
+      description:
+        - Uncertainty-guided learning for multimodal medical image segmentation.
+    - title: BSc Computer Engineering
       institution: Koç University, Istanbul, Turkey
       year: "2020 - 2024"
+      description:
+        - Awarded a 50% merit scholarship.
 
-- title: Experience
+- title: Research Experience
   type: time_table
   contents:
-    - title: React Frontend Intern
-      institution: Payriff CJSC
-      year: "Aug 2023"
+    - title: PhD Researcher - World Models and Physical AI
+      institution: Queen Mary University of London, London, UK
+      year: "2025 - Present"
       description:
-        - Built user-friendly interfaces and implemented API integrations for payment systems.
-    - title: Angular Frontend Intern
-      institution: Uniser Group PLC
-      year: "Jul 2023 & Sep 2023"
-      description:
-        - Developed responsive and dynamic web applications using the Angular framework.
-    - title: Software Development Intern
-      institution: Azersun Holding
-      year: "Jul 2022 - Aug 2022"
-      description:
-        - Contributed to internal tools development by implementing new features and optimizing existing systems.
-
-- title: Academic Interests
-  type: nested_list
-  contents:
-    - title: Deep Learning and Computer Vision
-      items:
-        - Medical Image Segmentation and Classification.
-        - Object Detection in Dynamic Environments.
-    - title: Machine Learning and AI
-      items:
-        - Developing custom models and integrating uncertainty estimation for interpretability.
-        - Data preprocessing, augmentation, and analysis.
+        - Develop test-time memory for long-video reasoning and repeated observations.
+        - Co-developed a benchmark of 1,560 clips for physical video reasoning, with linked semantic, temporal and spatial targets.
+        - Evaluated 10 video-language models across three prompt families and four video-input conditions.
+        - Developed a rank-preserving method for verifying temporal retrieval predictions with multimodal evidence.
 
 - title: Publications
   type: list
   contents:
-    - '<b>Grounding Video Reasoning in Physical Signals.</b> Alibay Osmanli, Zixu Cheng, and Shaogang Gong. arXiv:2604.21873, 2026. <a href="https://arxiv.org/abs/2604.21873">Paper</a> / <a href="https://github.com/AlibayOsmanli/Grounding-Video-Reasoning-in-Physical-SignalGrounding-Video-Reasoning-in-Physical-Signal">Code</a>'
+    - >-
+      <b>PlaceTally: A Test-Time Memory Model for Constructing Place Graphs.</b>
+      Alibay Osmanli and Shaogang Gong. arXiv preprint, 2026.
+      <a href="https://alibayosmanli.github.io/placetally">Project page</a> /
+      <a href="https://github.com/AlibayOsmanli/placetally">Code</a>
+    - >-
+      <b>OVET-Consensus: Rank-Preserving Counterfactual Event Verification for Video Moment Grounding.</b>
+      Alibay Osmanli and Shaogang Gong. arXiv preprint, 2026.
+    - >-
+      <b>Grounding Video Reasoning in Physical Signals.</b>
+      Alibay Osmanli, Zixu Cheng and Shaogang Gong. arXiv preprint, 2026.
+      Accepted at the Second Workshop on Video Large Language Models (CVPR 2026).
+      <a href="https://arxiv.org/abs/2604.21873">Paper</a> /
+      <a href="https://github.com/AlibayOsmanli/Grounding-Video-Reasoning-in-Physical-SignalGrounding-Video-Reasoning-in-Physical-Signal">Code</a>
 
-- title: Other Interests
-  type: list
+- title: Teaching Experience
+  type: time_table
   contents:
-    - "<u>Hobbies:</u> Technology and innovation."
+    - title: Demonstrator - Deep Learning and Computer Vision (MSc modules)
+      institution: Queen Mary University of London, London, UK
+      year: "Feb 2026 - Present"
+      description:
+        - Support MSc students in deep learning and computer vision labs.
+        - Developed and ran an online assessment website for Computer Vision.
+        - Delivered two lectures on diffusion models.
+        - Mark coursework and exams.
+    - title: Demonstrator - Machine Learning
+      institution: Queen Mary University of London, London, UK
+      year: "Sep 2025 - Feb 2026"
+      description:
+        - Supported labs and helped students debug their implementations.
+        - Marked coursework and exams.
+
+- title: Industry Experience
+  type: time_table
+  contents:
+    - title: Frontend Engineering Intern (Angular & React)
+      institution: Uniser Group PLC / Payriff CJSC, Baku, Azerbaijan
+      year: "Jul 2023 - Sep 2023"
+      description:
+        - Developed responsive payment-system features and integrated APIs.
+    - title: Software Development Intern
+      institution: Azersun Holding, Baku, Azerbaijan
+      year: "Jul 2022 - Aug 2022"
+      description:
+        - Implemented features for internal tools that support business workflows.
+
+- title: Selected Projects
+  type: nested_list
+  contents:
+    - title: Object Detection in Dynamic Environments
+      items:
+        - Designed methods to count vehicles in road scenes, including small and distant vehicles.
+    - title: Augmented Reality (AR) Indoor Navigation
+      items:
+        - Developed an AR campus navigation app using real-time spatial data and feature extraction.
+    - title: Multimodal Medical Image Segmentation
+      items:
+        - Built uncertainty-guided learning pipelines and U-Net architectures for cell and organ segmentation.
+
+- title: Technical Skills
+  type: map
+  contents:
+    - name: Research methods
+      value: Computer vision, deep learning, video-language models, video moment retrieval, spatio-temporal grounding, benchmark design, model evaluation and uncertainty estimation
+    - name: Research areas
+      value: World models, physical AI, multimodal learning, generative models and medical image segmentation
+    - name: Programming and tools
+      value: Python, PyTorch, TensorFlow, JAX, NumPy, Pandas, OpenCV, Git, Docker, Jupyter, AWS, Google Cloud and LaTeX
+    - name: Web development
+      value: JavaScript, Angular and React
+    - name: Teaching and assessment
+      value: Lab demonstrating, coursework modification, online assessment and rubric-based marking
+    - name: Languages
+      value: English, Russian, Azerbaijani and Turkish
